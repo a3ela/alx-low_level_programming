@@ -1,19 +1,28 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Print all numbers of base64 in lowercase.
- * You can only use `putchar`
+ * Description: Use `putchar` to print lowercase and then uppercase alphabet.
  * Return: 0
  */
-
 int main(void)
 {
-do
-	char alp='a';
-	printf("%c",alp);
+	char c = 'a';
 
-while(alp <=z)
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	c = 'A';
+
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	putchar('\n');
 
 	return (0);
-
 }
