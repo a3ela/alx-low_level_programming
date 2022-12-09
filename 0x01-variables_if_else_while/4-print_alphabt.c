@@ -8,11 +8,14 @@
 
 int main(void)
 {
-do
-	char alp='a';
-	printf("%c",alp);
+	char alp = 'a';
 
-while(alp <=z)
+	for ( ; alp <= 'z' ; alp++)
+		if (alp != 'q' && alp != 'e')
+			putchar(alp);
+
+	putchar('\n');
+
 
 	return (0);
 
