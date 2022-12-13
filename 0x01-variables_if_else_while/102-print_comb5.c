@@ -38,7 +38,7 @@ int main(void)
 
 				if (!(a == 9 && b == 8))
 				{
-					putchar(44);
+					putchar(44); /* 44 is ,(comma) and 32 is space( )*/
 					putchar(32);
 				}
 			}

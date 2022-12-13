@@ -30,7 +30,7 @@ int main(void)
 
 			if (i < 700)
 			{
-				putchar(44);
+				putchar(44); /* 44 = , and 32 = space */
 				putchar(32);
 			}
 		}
