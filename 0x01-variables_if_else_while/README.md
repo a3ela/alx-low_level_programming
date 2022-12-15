@@ -1,6 +1,7 @@
-0x01-variables if else while
+# 0x01-variables if else while
 
 - Excercise 0: print whether the number stored in the variable n is positive or negative.
+
 - Excercise 1: print the last digit of the number stored in the variable n.
 - Excercise 2: program that prints the alphabet in lowercase, followed by a new line.
 - Excercise 3: program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
