@@ -6,17 +6,8 @@
  */
 int _isalpha(int c)
 {
-	char low_alpha = 'a';
-	char up_alpha = 'A';
-
-	while (low_alpha <= 'z')
-	{
-		if (c == low_alpha)
-			return (1);
-		if (c == up_alpha)
-			return (1);
-		low_alpha++;
-		up_alpha++;
-	}
-	return (0);
+	if (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
