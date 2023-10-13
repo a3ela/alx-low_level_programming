@@ -13,7 +13,6 @@ To compile and run these programs, follow these steps:
 >  $ git clone https://github.com/a3ela/alx-low_level_programming.git
 
    
-
  2. Navigate to the `0x01-variables_if_else_while` directory:
  
 
@@ -22,8 +21,9 @@ To compile and run these programs, follow these steps:
 
  3. Compile a program using `gcc`, for example:
 
->  $ gcc -Wall -Werror -pedantic -o 0-positive_or_negative
- 0-positive_or_negative.c
+
+>  $ gcc -Wall -Werror -pedantic -o 0-positive_or_negative 0-positive_or_negative.c
+
 
  4. Run the compiled program:
  
