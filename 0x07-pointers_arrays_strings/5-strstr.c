@@ -1,5 +1,9 @@
 #include "main.h"
+#include <stdlib.h>
 
+#define true 1
+#define false 0
+#define bool int
 /**
  * _strstr - locates a substring
  * @haystack: strign to be searched
