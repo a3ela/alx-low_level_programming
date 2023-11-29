@@ -1,13 +1,14 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * string_nconcat - concatenates two strings
- * @s1: the first string
- * @s2: the second string
- * @n: the number of bytes to copy from the beginning of s2
+ * string_nconcat - Concatenates two strings
+ * @s1: The first string
+ * @s2: The second string
+ * @n: The number of bytes to copy from the beginning of s2
+ *
  * Return: The pointer to the new string, or NULL on failure
  */
-
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i;
@@ -24,7 +25,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	str = malloc(sizeof(char) * (len + 1));
 	if (str != NULL)
 	{
-		for (len =0; *(s1 + len) != '\0'; len++)
+		for (len = 0; *(s1 + len) != '\0'; len++)
 			*(str + len) = *(s1 + len);
 		for (i = 0; i < n && *(s2 + i) != '\0'; i++)
 		{
